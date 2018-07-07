@@ -1,10 +1,6 @@
 #include "stdafx.h"
 #include "double_list.h"
-#include <cstdlib>
-#include <ctime>
-#include <windows.h>
-#include <fstream>
-#include <string>
+
 
 void Double_list::fill_up()
 {

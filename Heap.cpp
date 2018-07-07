@@ -1,10 +1,5 @@
 #include "stdafx.h"
 #include "Heap.h"
-#include <cstdlib>
-#include <ctime>
-#include <windows.h>
-#include <fstream>
-#include <string>
 
 void Heap::fill_up()
 {
@@ -149,7 +144,7 @@ void Heap::show()
 	int cnt = 0;
 	int j = 0;
 	int sum = 0;
-	for (unsigned i = 0; i < size; i++)
+	for (signed i = 0; i < size; i++)
 	{
 		cout << tab[i] << endl;
 		if (i == 0)

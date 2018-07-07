@@ -1,10 +1,5 @@
 #include "stdafx.h"
 #include "Tabel.h"
-#include <cstdlib>
-#include <ctime>
-#include <windows.h>
-#include <fstream>
-#include <string>
 void Tabel::fill_up()
 {
 	string name;

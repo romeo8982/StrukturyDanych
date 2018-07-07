@@ -1,13 +1,9 @@
 #include "stdafx.h"
 #include "Heap.h"
-#include <cstdlib>
 #include "Tabel.h"
-#include <ctime>
 #include "double_list.h"
 #include "Tree.h"
-#include <string>
-#include <iostream>
-#include <windows.h>
+
 
 using namespace std;
 
