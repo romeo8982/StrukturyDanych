@@ -1,9 +1,8 @@
 #pragma once
-#include <iostream>
 
 using namespace std;
 
-class Heap
+class Heap : public Struct
 {
 	int size = 0;
 	int helper;

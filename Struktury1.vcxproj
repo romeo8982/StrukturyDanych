@@ -145,15 +145,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="double_list.h" />
+    <ClInclude Include="DoubleList.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Struct.h" />
     <ClInclude Include="Tabel.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="double_list.cpp" />
+    <ClCompile Include="DoubleList.cpp" />
     <ClCompile Include="Heap.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -161,7 +162,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Struktury1.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Tabel.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>

@@ -1,7 +1,6 @@
 #pragma once
-#include <iostream>
 using namespace std;
-class Tabel
+class Tabel : public Struct
 {
 	int *tab;
 	int size;

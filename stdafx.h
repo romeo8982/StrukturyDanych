@@ -15,6 +15,7 @@
 #include <fstream>
 #include <string>
 #include <iostream>
+#include "Struct.h"
 
 
 // TODO: reference additional headers your program requires here

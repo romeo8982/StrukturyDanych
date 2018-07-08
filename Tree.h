@@ -10,7 +10,7 @@ struct Link
 	Link(int x) : key(x), left(NULL), right(NULL)
 	{}
 };
-class Tree
+class Tree : public Struct
 {	
 	Link* clear(int x, Link* t);
 	Link* mini(Link* t);
